@@ -1,0 +1,61 @@
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+.view {
+  height: 100%; }
+
+.main-content {
+  padding: 125px 0 100px 0;
+  background-image: url(/public/img/rect4764.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  /* padding: 0 auto;
+  margin: 0 auto; */
+}
+
+.signup {
+  background-color: white;
+  color: orange;
+}
+
+.signup:hover {
+  background-color: orange;
+  color: white;
+}
+
+.btn-main {
+  margin: 0 20px;
+}
+
+.database-title {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+}
+
+.heading-text {
+  padding: 15px 20px;
+}
+
+.card-deck {
+  padding: 2px 2px;
+}
+
+.card {
+  display: inline-block;
+}

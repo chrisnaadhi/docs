@@ -1,0 +1,36 @@
+Hi Sri and Adrian,
+
+Are you using the EZproxy menu page for testing ?
+If so, it's not a very good test, EZproxy displays that menu page when it has not been asked to proxy anything. 
+End users do not normally see the menu page. End users are normally use the Library web page Portal to access electronic resources.
+
+The URLs used on this menu page are very generic (not customer specific), as the configuration is shared in common with all Hosted customers (ensuring that we can keep you all up to date when anything changes).
+
+Normal use of EZproxy is to use direct links to the remote resource, with the EZproxy address prepended.
+(i.e. "https://unpad.idm.oclc.org/login?url=<the actual remote url>") 
+For example for EBSOHOST publication you will use:
+(eg: "https://unpad.idm.oclc.org/login?url=https://search.ebscohost.com") 
+
+
+If you still want to use EZproxy menu page then you need to customize html pages and send it to us to install on EZproxy. Currently all html pages are default EZproxy pages.
+
+I have attached a zip file "docs.zip" containing the existing basic html files which provide the limited fixed pages used by EZproxy to send to the end-user's browser when needed.  These pages are:
+- "login.htm" (the initial login page)
+- "loginbu.htm" (the page displayed when an incorrect username/password has been given, so the user can try again)
+- "cookie.htm" (displayed if the end-user's browser is blocking cookies - which EZproxy requires, as do many remote resource sites)
+- "https.htm" (displayed if the user tries to access a "https" resource using a "http" URL)
+- "needhost.htm" (displayed if EZproxy receives a URL to proxy to a remote resource which is not configured into EZproxy)
+- "logout.htm" (displayed when an end user logs out of EZproxy)
+- "menu.htm" (displays the list of configured resources.  This is the page you will see after logging in, if you don't append a remote resource URL to your EZproxy URL)
+
+Please see "https://help.oclc.org/Library_Management/EZproxy/Manage_EZproxy/Error_pages" for further information.
+
+Note that all html files should be kept together, while other included resources (Images, stylesheets, etc.) should be kept in the "docs" folder - see the folder structure in the zip file for how these should be laid out.
+When you are ready for us to install these into your EZproxy installation, please email us back a zip file containing the files you have modified and added.
+
+If you have any questions, or find any issues when testing access to your remote resources through EZproxy, please do let us know.
+
+Regards,
+
+Harun Abdullah
+Attachment(s)
