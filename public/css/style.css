@@ -4,18 +4,24 @@ ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .view {
   height: 100%; }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0.2); }
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.navbar-brand {
+  align-items: center;
+}
 
 .top-nav-collapse {
   background-color: #1C2331; }
 
-.main-content {
+/* .main-content {
   padding: 125px 0 100px 0;
   background-image: url(/public/img/rect4764.png);
   background-size: cover;
@@ -23,7 +29,7 @@ h1, h2, h3, h4, h5, h6, p, div {
   background-attachment: fixed;
   color: white;
   text-align: center;
-}
+} */
 
 .container {
   width: 100%;
@@ -48,7 +54,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 .database-title {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  padding-top: 15px;
+  padding-top: 70px;
   padding-left: 20px;
   padding-bottom: 15px;
   padding-right: 20px;
@@ -64,4 +70,9 @@ h1, h2, h3, h4, h5, h6, p, div {
 
 .card {
   flex-wrap: wrap;
+  text-align: center;
+}
+
+.pb-4 {
+  padding-top: 15px;
 }
