@@ -95,3 +95,13 @@ body {
 .pb-4 {
   padding-top: 15px;
 }
+
+.scopus {
+  height: 10em;
+}
+
+@media only screen and (max-width: 768px) {
+  .scopus {
+    height: auto;
+  }
+}
